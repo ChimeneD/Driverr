@@ -1,8 +1,9 @@
 {
   "expo": {
-    "owner":"mrchimene",
+    "owner": "mrchimene",
     "name": "driverr",
     "slug": "driverr",
+    "plugins": ["@config-plugins/react-native-ble-plx"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
